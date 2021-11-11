@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.input-button_Container{
+    display: flex;
+    align-items: center;
+}
+
+.input-button_Container button{
+    padding: 2px;
+    margin-left: 20px;
+}
+
+.listContainer{
+    padding-top: 40px;
+}
+.listContainer ul{
+    list-style: none;
+}
+
+.listContainer ul li{
+    background-color: #fff;
+    width: 750px;
+    list-style: none;
+    padding: 8px;
+    margin: 8px 0;
+    text-align: center;
+    border-radius: 6px;
+}
